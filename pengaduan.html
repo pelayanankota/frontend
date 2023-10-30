@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Navbar dengan Tombol Pengaduan</title>
+    <style>
+        /* CSS untuk styling navbar */
+        ul.navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: #333; /* Warna latar belakang navbar */
+        }
+
+        ul.navbar li {
+            display: inline;
+        }
+
+        ul.navbar li a {
+            display: block;
+            color: white; /* Warna teks tautan */
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul.navbar li a:hover {
+            background-color: #555; /* Warna latar belakang saat tautan dihover */
+        }
+
+        /* CSS untuk tombol "Pengaduan" */
+        .pengaduan-button {
+            background-color: #ff0000; /* Warna latar belakang tombol */
+            color: white; /* Warna teks tombol */
+            padding: 14px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <ul class="navbar">
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#">Tentang Kami</a></li>
+        <li><a href="#">Layanan</a></li>
+        <li><a href="#">Kontak</a></li>
+        <li><button class="pengaduan-button">Pengaduan</button></li>
+    </ul>
+</body>
+</html>
